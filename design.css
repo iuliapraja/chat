@@ -1,0 +1,18 @@
+.chat{
+    background-size: 50%;
+    background-color: white;
+    color:black;
+
+}
+
+.conversatii{
+    inline-size: 20%;
+    background-color: white;
+    color:black;
+}
+
+.mesajuser{
+    inline-size: 70%;
+    background-color: white;
+    color:black;
+}
