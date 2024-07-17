@@ -5,13 +5,12 @@
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     margin-top: 2cm;
-    display: grid;
     align-content: space-between;
     justify-content: space-evenly;
     grid-template-columns: auto auto;
     margin-left: auto;
     margin-right:auto;
-}
+
 
 .conversatii{
     inline-size: 20%;
