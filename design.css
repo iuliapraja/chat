@@ -15,6 +15,11 @@
     inline-size: 20%;
     background-color: rgb(72, 181, 185);
     color:black;
+    position : absolute;
+    width: 50%;
+    left: 25%;
+    bottom: 1cm;
+    top: 1cm;
 }
 
 .mesajuser{
