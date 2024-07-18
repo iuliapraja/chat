@@ -1,10 +1,9 @@
-.chat{
+.pagina{
     background-size: 50%;
     background-color: rgb(227, 128, 128);
     color:black;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
-    margin-top: 2cm;
     align-content: space-between;
     justify-content: space-evenly;
     grid-template-columns: auto auto;
