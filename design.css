@@ -29,15 +29,15 @@
 .mesaje {
     position: absolute;
     top: 80px;
-    right: 0;
+    right: 200px;
     width: 200px;
     height: 100px;
-    border: 3px solid #73AD21;
+    border: 5px solid black;
   }
 
 .mesajuser {
     position: relative;
     width: 400px;
     height: 200px;
-    border: 3px solid #73AD21;
+    border: 5px solid black;
   }
