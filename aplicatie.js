@@ -41,6 +41,7 @@ const Mesajuser = () => {
             </div>
             
             <MesajTrimis ora={"08:36"} />
+            <MesajTrimis ora={"08:38"} />
         </div>
     )
 }
