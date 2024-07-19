@@ -48,13 +48,14 @@
     border: 5px solid black;
     right: 4cm;
     bottom: 2cm;
+    text-align: left;
 }
 .container {
     border: 2px solid #dedede;
     background-color: #f1f1f1;
     border-radius: 5px;
-    padding: 10px;
-    margin: 10px 0;
+    padding: 5px;
+    margin: 10px 10px 10px 10px;
   }
   .darker {
     border-color: #338de6;
