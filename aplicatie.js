@@ -5,7 +5,7 @@ const Conversatii = () => {
             
             <div class="mesaje">
                 <div class="profil">
-
+aici vin conversatiile
 
                 </div>
             </div>
