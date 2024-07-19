@@ -38,7 +38,7 @@
     bottom: 1cm;
     width: 350px;
     border: 5px solid black;
-    align-content: space-evenly;
+    align-content: top;
   }
 
 .mesajuser {
