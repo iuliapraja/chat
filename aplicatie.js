@@ -1,7 +1,7 @@
-function App() {
+
+const Conversatii = () => {
     return (
-      <div>
-          <div class="conversatii">
+        <div class="conversatii">
             
             <div class="mesaje">
                 <div class="profil">
@@ -10,6 +10,14 @@ function App() {
                 </div>
             </div>
         </div>
+    )
+}
+
+function App() {
+    return (
+      <div>
+
+        <Conversatii />
 
         <div class="mesajuser">
             <div class="container">
