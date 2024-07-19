@@ -14,9 +14,9 @@
 .conversatii{
     inline-size: 20%;
     background-color: rgb(72, 181, 185);
-    color:black;
-    position : absolute;
-    width: 50%;
+    color: black;
+    position: absolute;
+    width: 1200px;
     left: 25%;
     bottom: 1cm;
     top: 1cm;
@@ -32,22 +32,22 @@
 }
 .mesaje {
     position: absolute;
-    top: 2cm;
-    left: 10c;
-    right : 1cm;
-    bottom:1cm;
+    top: 1cm;
+    left: 1cm;
+    right: 1cm;
+    bottom: 1cm;
     width: 350px;
-    height: 150px;
     border: 5px solid black;
     align-content: space-evenly;
-
   }
 
 .mesajuser {
-    position: relative;
-    width: 400px;
-    height: 200px;
+    position: absolute;
+    width: 700px;
+    top: 1cm;
     border: 5px solid black;
-    left:35px;
+    right: 1cm;
     align-content: space-evenly;
+    bottom: 1cm;
+}
   }
