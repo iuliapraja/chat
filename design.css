@@ -58,8 +58,8 @@
     margin: 10px 0;
   }
   .darker {
-    border-color: #ccc;
-    background-color: #ddd;
+    border-color: #338de6;
+    background-color: #338de6;
   }
   .container::after {
     content: "";
