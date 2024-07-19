@@ -44,11 +44,11 @@
 .mesajuser {
     position: absolute;
     width: 700px;
-    top: 1cm;
+    top: 2cm;
     border: 5px solid black;
-    right: 1cm;
+    right: 4cm;
     align-content: space-evenly;
-    bottom: 1cm;
+    bottom: 2cm;
 }
 .container {
     border: 2px solid #dedede;
