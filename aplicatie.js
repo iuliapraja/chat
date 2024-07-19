@@ -20,7 +20,7 @@ const MesajPrimit = () => {
 const MesajTrimis = ( props ) => {
     return (
         <div class="container darker">
-            <p>We need to control the midfield and exploit their defensive weaknesses. Bruno and Paul, I'm counting on your creativity.Marcus and Jadon, stretch their defense wide.Use your pace and take on their full-backs.</p>
+            <p>{props.mesaj}</p>
             <span class="time-left">{props.ora}</span>
         </div>
     );
@@ -40,8 +40,8 @@ const Mesajuser = () => {
               <span class="time-left">08:34</span>
             </div>
             
-            <MesajTrimis ora={"08:36"} />
-            <MesajTrimis ora={"08:38"} />
+            <MesajTrimis ora={"08:36"} mesaj={"We need to control the midfield and exploit their defensive weaknesses. Bruno and Paul, I'm counting on your creativity.Marcus and Jadon, stretch their defense wide.Use your pace and take on their full-backs."}/>
+            <MesajTrimis ora={"08:38"} mesaj={"da da"}/>
         </div>
     )
 }
