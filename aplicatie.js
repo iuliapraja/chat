@@ -13,7 +13,7 @@ aici vin conversatiile
     )
 }
 
-const MesajPrimit = () => {
+const MesajPrimit = (props) => {
     return (
         <div class="container">
                 <p>
