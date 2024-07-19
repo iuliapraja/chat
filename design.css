@@ -2,7 +2,7 @@
     background-size: 50%;
     background-color: rgb(227, 128, 128);
     color:black;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family:initial;
     text-align: center;
     align-content: space-between;
     justify-content: space-evenly;
@@ -47,7 +47,6 @@
     top: 2cm;
     border: 5px solid black;
     right: 4cm;
-    align-content: space-evenly;
     bottom: 2cm;
 }
 .container {
