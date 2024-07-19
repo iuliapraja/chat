@@ -33,12 +33,14 @@
 .mesaje {
     position: absolute;
     top: 2cm;
-    left: 1cm;
+    left: 10c;
     right : 1cm;
     bottom:1cm;
     width: 350px;
     height: 150px;
     border: 5px solid black;
+    align-content: space-evenly;
+
   }
 
 .mesajuser {
