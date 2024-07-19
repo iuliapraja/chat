@@ -17,7 +17,7 @@ const MesajPrimit = () => {
     return (
         <div class="container">
                 <p>
-                  Hey lads, tough game yesterday. Let's talk about what went wrong and how we can improve &#128512;.
+                  {props.mesaj}
                 </p>
                 <span class="time-right">08:34</span>
             </div>
