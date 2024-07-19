@@ -12,13 +12,8 @@ aici vin conversatiile
         </div>
     )
 }
-
-function App() {
+const Mesajuser = () => {
     return (
-      <div>
-
-        <Conversatii />
-
         <div class="mesajuser">
             <div class="container">
                 <p>
@@ -36,6 +31,16 @@ function App() {
               <span class="time-left">08:36</span>
             </div>
         </div>
+    )
+}
+
+function App() {
+    return (
+      <div>
+
+        <Conversatii />
+        <Mesajuser />
+
       </div>
     );
   }
