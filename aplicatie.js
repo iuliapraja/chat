@@ -19,7 +19,7 @@ const MesajPrimit = () => {
                 <p>
                   {props.mesaj}
                 </p>
-                <span class="time-right">08:34</span>
+                <span class="time-right">{props.ora}</span>
             </div>
 
     )
