@@ -47,15 +47,6 @@ const Mesajuser = () => {
     )
 }
 
-const Mesaje = () => [
-    return (
-        <div class="profil">
-            <img src="https://i.pravatar.cc/70" alt="Avatar"></img>
-            <h1>Iulia Praja</h1>
-        </div>
-
-    )
-]
 
 function App() {
     return (
