@@ -5,8 +5,8 @@ const Conversatii = () => {
             
             <div class="mesaje">
                 <div class="profil">
-aici vin conversatiile
-
+                <img src="https://i.pravatar.cc/70" alt="Avatar"></img>
+                Iulia Praja
                 </div>
             </div>
         </div>
