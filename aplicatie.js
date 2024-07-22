@@ -16,6 +16,7 @@ aici vin conversatiile
 const MesajPrimit = (props) => {
     return (
         <div class="container">
+            <img src="https://i.pravatar.cc/50" alt="Avatar"></img>
                 <p>
                   {props.mesaj}
                 </p>
@@ -44,6 +45,7 @@ const Mesajuser = () => {
         </div>
     )
 }
+
 
 function App() {
     return (
