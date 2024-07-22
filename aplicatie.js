@@ -29,6 +29,7 @@ const MesajPrimit = (props) => {
 const MesajTrimis = ( props ) => {
     return (
         <div class="container darker">
+            <img src="https://i.pravatar.cc/50" alt="Avatar"></img>
             <p>{props.mesaj}</p>
             <span class="time-left">{props.ora}</span>
         </div>
