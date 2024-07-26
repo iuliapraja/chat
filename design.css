@@ -82,3 +82,7 @@
   width: 600px;
   right : 1cm;
 }
+.center{
+  position: absolute;
+  top: 1.5cm;
+}
