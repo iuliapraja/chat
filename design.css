@@ -79,5 +79,6 @@
   position:absolute;
   height: 1cm;
   border: 5px solid black;
-
+  width: 600px;
+  right : 1cm;
 }
