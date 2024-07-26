@@ -18,6 +18,13 @@ const ListaMesaje = () => {
         </div>
     )
 }
+const Trimite = () =>{
+    return (
+        <div class="bottom">
+            <input type="text" placeholder="Trimite mesaj" />
+        </div>
+    )
+}
 const Mesajuser = () => {
     return (    
         <div class="mesajuser">
