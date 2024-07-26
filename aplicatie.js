@@ -32,7 +32,7 @@ const Mesajuser = () => {
 
             <Top/>
             <ListaMesaje/>
-            3.Trimite
+            <Trimite/>
 
         </div>
     )
