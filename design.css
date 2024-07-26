@@ -38,15 +38,15 @@
     right: 1cm;
     bottom: 1cm;
     width: 350px;
-    border: 5px solid black;
+    background-color: #fff;
+    border-radius: 10px;
     align-content: top;
   }
 
 .mesajuser {
     position: absolute;
-    width: 700px;
+    left: 10cm;
     top: 1cm;
-    border: 5px solid black;
     right: 1cm;
     bottom: 1cm;
     text-align: left;
@@ -78,21 +78,22 @@
 .top{
   position:absolute;
   height: 1cm;
-  border: 5px solid black;
   right : 1cm;
   left: 1cm;
+  background-color: white;
+  border-radius: 10px;
 }
 .center{
   position: absolute;
   top: 1.5cm;
-  border: 5px solid black;
+  background-color: white;
   right: 1cm;
   left: 1cm;
   bottom : 2cm;
 }
 .bottom{
   position: absolute;
-  border: 5px solid black;
+  background-color: white;
   right: 1cm;
   left: 1cm;
   bottom: 0.5cm;
