@@ -1,7 +1,6 @@
 const Top = () => {
     return (
         <div class="top">
-                        1. top
             <img src="https://i.pravatar.cc/70" alt="Avatar"></img>
             United Family
         </div>
