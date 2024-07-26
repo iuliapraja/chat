@@ -85,4 +85,6 @@
 .center{
   position: absolute;
   top: 1.5cm;
+  border: 5px solid black;
+  width: 600px;
 }
