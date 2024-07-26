@@ -88,10 +88,10 @@
   border: 5px solid black;
   right: 1cm;
   left: 1cm;
+  bottom : 2cm;
 }
 .bottom{
   position: absolute;
-  top: 1.5cm;
   border: 5px solid black;
   right: 1cm;
   left: 1cm;
