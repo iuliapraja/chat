@@ -90,6 +90,7 @@
   right: 1cm;
   left: 1cm;
   bottom : 2cm;
+  overflow: scroll;
 }
 .bottom{
   position: absolute;
