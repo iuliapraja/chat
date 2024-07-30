@@ -1,7 +1,15 @@
+const Avatar = (props) => {
+    return (
+        <div class="avatar">
+            <img src={props.src} alt="Avatar"></img>
+        </div>
+    )
+}
+
 const Top = () => {
     return (
         <div class="top">
-            <img src="https://i.pravatar.cc/70" alt="Avatar"></img>
+            <Avatar/>
             United Family
         </div>
     )
@@ -54,7 +62,7 @@ const Conversatii = () => {
                     
             <div class="mesaje">
                 <div class="profil">
-                <img src="https://i.pravatar.cc/70" alt="Avatar"></img>
+                <iAvatar/>
                 Iulia Praja
                 </div>
             </div>
@@ -66,7 +74,7 @@ const Conversatii = () => {
 const MesajPrimit = (props) => {
     return (
         <div class="container">
-            <img src="https://i.pravatar.cc/50" alt="Avatar"></img>
+            <Avatar/>
                 <p>
                   {props.mesaj}
                 </p>
@@ -79,7 +87,7 @@ const MesajPrimit = (props) => {
 const MesajTrimis = ( props ) => {
     return (
         <div class="container darker">
-            <img src="https://i.pravatar.cc/50" alt="Avatar"></img>
+            <Avatar/>
             <p>{props.mesaj}</p>
             <span class="time-left">{props.ora}</span>
         </div>
