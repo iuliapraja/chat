@@ -1,6 +1,6 @@
 const Avatar = (props) => {
     return (
-        <div className="avatar" style={{backgroundImage: "url(" + props.src + ")"}}>
+        <div className="avatar" background={props.src}>
             <img src={props.src} alt="Avatar" style=""></img>
         </div>
     )
