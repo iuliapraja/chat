@@ -9,7 +9,7 @@ const Avatar = (props) => {
 const Top = () => {
     return (
         <div class="top">
-            <Avatar/>
+            <Avatar src="https://i.pravatar.cc/30"/>
             United Family
         </div>
     )
