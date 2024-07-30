@@ -34,7 +34,6 @@
     width: 1cm;
     overflow: hidden;
     background-position: center;
-    background-image: attr(data-image url)
 }
 .mesaje {
     position: absolute;
