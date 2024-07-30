@@ -33,6 +33,7 @@
     height: 1cm;
     width: 1cm;
     overflow: hidden;
+    background-position: center;
 }
 .mesaje {
     position: absolute;
