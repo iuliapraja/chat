@@ -62,7 +62,7 @@ const Conversatii = () => {
                     
             <div class="mesaje">
                 <div class="profil">
-                <iAvatar/>
+                <Avatar src="https://i.pravatar.cc/50" />
                 Iulia Praja
                 </div>
             </div>
@@ -74,7 +74,7 @@ const Conversatii = () => {
 const MesajPrimit = (props) => {
     return (
         <div class="container">
-            <Avatar/>
+            <Avatar src="https://i.pravatar.cc/50"/>
                 <p>
                   {props.mesaj}
                 </p>
@@ -87,7 +87,7 @@ const MesajPrimit = (props) => {
 const MesajTrimis = ( props ) => {
     return (
         <div class="container darker">
-            <Avatar/>
+            <Avatar src="https://i.pravatar.cc/50"/>
             <p>{props.mesaj}</p>
             <span class="time-left">{props.ora}</span>
         </div>
