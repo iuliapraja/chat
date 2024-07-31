@@ -3,7 +3,7 @@ const Avatar = (props) => {
         <div className="avatar" style={{
             backgroundImage: "url(https://i.pravatar.cc/30)"
         }}>
-            <img src={props.src} alt="Avatar"></img>
+
         </div>
     )
 }
