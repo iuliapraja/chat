@@ -1,7 +1,7 @@
 const Avatar = (props) => {
     return (
         <div className="avatar" style={{
-            backgroundImage: "url(https://i.pravatar.cc/30)"
+            backgroundImage: "url("+ props.src +")"
         }}>
 
         </div>
