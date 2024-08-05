@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <title>Chat</title>
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <style>
+        .div1 {
+            position: absolute;
+            background-color: black;
+        }
+        .div2 {
+            position: absolute;
+            background-color: black;
+            border-radius: 50%;
+        }
+        .div3 {
+            position: absolute;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+    <script type="text/babel" >
+function App() {
+    return (
+      <div class="div1 totulnegru">
+        <div class="div2 stanga">
+        </div>
+
+
+        <div class="div3 aladindreaptalabrotund">
+        </div>
+        
+
+
+      </div>
+    );
+  }
+    </script>
+  </head>
+  <body class="pagina">
+    <div id="root"></div>
+
+
+
+  <script type="text/babel">
+    ReactDOM.render(<App />, document.getElementById('root'));
+  </script>
+  </body>
+</html>
