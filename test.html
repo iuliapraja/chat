@@ -7,49 +7,49 @@
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <style>
-        .div1totulnegru {
-            position: absolute;
-            background-color: black;
-            top: 0cm;
-            left: 0cm;
-            right: 0cm;
-            bottom: 0cm;
-        }
-        .div2stanga {
-            position: absolute;
-            background-color: gray;
-            top: 1cm;
-            bottom: 1cm;
-            left: 0.5cm;
-            width: 6cm;
-
-
-        }
-        .div3aladindreaptalabrotund {
-            position: absolute;
-            background-color: white;
-            border-radius: 25px;
-            left: 7cm;
-            top: 0.5cm;
-            bottom: 0.5cm;
-            right: 0.5cm;
-        }
+      .div1{
+        background-color: gray;
+        position:absolute;
+        top: 0cm;
+        bottom: 0cm;
+        left: 0cm;
+        right: 0cm;
+        border-radius: 25px;
+      }
+      .div2{
+        position: absolute;
+        background-color: lightgray;
+        top: 2cm;
+        bottom: 2cm;
+        left: 2cm;
+        width: 5cm;
+        border-radius: 25px;
+      }
+      .div3{
+        position:absolute;
+        background-color: white;
+        top: 2cm;
+        right: 2cm;
+        height: 1.5cm;
+        left: 7.5cm;
+        border-radius: 25px;
+      }
+      .div4{
+        background-color: white;
+        position:absolute;
+        top: 4cm;
+        bottom: 7.5cm;
+        right: 2cm;
+        left: 7.5cm;
+      }
     </style>
     <script type="text/babel" >
 function App() {
     return (
-      <div className="div1totulnegru">
-        <div className="div2stanga">
-        </div>
-
-
-        <div className="div3aladindreaptalabrotund">
-        </div>
-        
-
-
-      </div>
-    );
+      <div className="div1"><div/>
+      <div className="div2"><div/>
+      <div className="div3"><div/>
+      <div className="div4"><div/>
   }
     </script>
   </head>
