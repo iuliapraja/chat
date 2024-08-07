@@ -25,6 +25,15 @@
         width: 5cm;
         border-radius: 25px;
       }
+      .continut {
+        position:absolute;
+        top: 2cm;
+        left: 7.5cm;
+        right: 2cm;
+        bottom: 2cm;
+        border: 1px dotted red;
+      }
+
       .div3{
         position:absolute;
         background-color: white;
@@ -43,14 +52,22 @@
         left: 7.5cm;
         border-radius: 25px;
       }
+      .div5{
+
+      }
     </style>
     <script type="text/babel" >
       function App() {
           return (
             <div className="div1">
               <div className="div2"></div>
-              <div className="div3"></div>
-              <div className="div4"></div>
+              <div className="continut">
+                <div className="div3"></div>
+                <div className="div4"></div>
+                <div className="div5"></div>
+                <div className="div6"></div>
+              </div>
+ 
             </div>
           );
         }
