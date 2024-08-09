@@ -8,7 +8,7 @@
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <style>
       .div1{
-        background-color: gray;
+        background-color: lightgrey;
         position:absolute;
         top: 0cm;
         bottom: 0cm;
@@ -18,14 +18,14 @@
       }
       .div2{
         position: absolute;
-        background-color: lightgray;
+        background-color: whitesmoke;
         top: 2cm;
         bottom: 2cm;
         left: 2cm;
         width: 5cm;
         border-radius: 25px;
       }
-      .continut {
+      .dreapta {
         position:absolute;
         top: 2cm;
         left: 7.5cm;
@@ -47,11 +47,11 @@
         position:absolute;
         top: 2cm;
         bottom: 5.5cm;
-        right: 0cm;
+        width: calc(50% - 0.25cm);
         left: 0cm;
         border-radius: 25px;
       }
-      .contentbottom{
+      .dreapta2{
         position:absolute;
         left: 0cm;
         right: 0cm;
@@ -82,10 +82,10 @@
           return (
             <div className="div1">
               <div className="div2"></div>
-              <div className="continut">
+              <div className="dreapta">
                 <div className="div3"></div>
                 <div className="div4"></div>
-                <div className="contentbottom">
+                <div className="dreapta2">
                   <div className="div5"></div>
                   <div className="div6"></div>
                 </div>  
