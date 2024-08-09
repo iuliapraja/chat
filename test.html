@@ -7,7 +7,7 @@
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
     <style>
-      .div1{
+      .pagina {
         background-color: lightgrey;
         position:absolute;
         top: 0cm;
@@ -16,81 +16,12 @@
         right: 0cm;
 
       }
-      .div2{
-        position: absolute;
-        background-color: whitesmoke;
-        top: 2cm;
-        bottom: 2cm;
-        left: 2cm;
-        width: 5cm;
-        border-radius: 25px;
-      }
-      .dreapta {
-        position:absolute;
-        top: 2cm;
-        left: 7.5cm;
-        right: 2cm;
-        bottom: 2cm;
-      }
-
-      .div3{
-        position:absolute;
-        background-color: white;
-        top: 0cm;
-        right: 0cm;
-        height: 1.5cm;
-        left: 0cm;
-        border-radius: 25px;
-      }
-      .div4{
-        background-color: white;
-        position:absolute;
-        top: 2cm;
-        bottom: 0cm;
-        width: calc(50% - 0.25cm);
-        left: 0cm;
-        border-radius: 25px;
-      }
-      .dreapta2{
-        position:absolute;
-        left: 0cm;
-        right: 0cm;
-        bottom: 0cm;
-        top: 2cm;
-      }
-      .div5{
-        position: absolute;
-        background-color: whitesmoke;
-        left: calc(50% + 0.25cm);
-        bottom: 0cm;
-        border-radius: 25px;
-        width: calc(50% - 0.25cm);
-        height: calc(50% - 0.5cm);
-      }
-      .div6{
-        position: absolute;
-        background-color: whitesmoke;
-        right: 0cm;
-        top: 0cm;
-        width: calc(50% - 0.25cm);
-        height: 50%;
-        border-radius: 25px;
-      }
+  
     </style>
     <script type="text/babel" >
       function App() {
           return (
-            <div className="div1">
-              <div className="div2"></div>
-              <div className="dreapta">
-                <div className="div3"></div>
-                <div className="div4"></div>
-                <div className="dreapta2">
-                  <div className="div5"></div>
-                  <div className="div6"></div>
-                </div>  
-              </div>
- 
+            <div className="pagina">
             </div>
           );
         }
